@@ -1,0 +1,18 @@
+# Keep source and automation files byte-for-byte consistent on every OS.
+/.gitattributes text eol=lf
+/.gitignore     text eol=lf
+/LICENSE        text eol=lf
+*.go      text eol=lf
+*.mod     text eol=lf
+*.sum     text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.json    text eol=lf
+*.jsonl   text eol=lf
+*.md      text eol=lf
+*.log     text eol=lf
+
+# Windows launchers retain native line endings when added later.
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+*.ps1     text eol=crlf

@@ -1,0 +1,14 @@
+# Local Go build state
+.cache/
+
+# Build and generated evidence output
+dist/
+bundles/
+/traceforge
+/traceforge.exe
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

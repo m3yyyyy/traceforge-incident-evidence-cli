@@ -1,0 +1,3 @@
+{"timestamp":"2026-09-02T10:14:01.120Z","level":"info","message":"request accepted","service":{"name":"api"},"host":"api-01","trace_id":"trace-demo-7","request_id":"req-demo-21","authorization":"Bearer synthetic-demo-token"}
+{"timestamp":"2026-09-02T10:14:01.480Z","level":"warn","message":"upstream latency threshold exceeded","service":{"name":"api"},"host":"api-01","trace_id":"trace-demo-7","request_id":"req-demo-21"}
+{"timestamp":"2026-09-02T10:14:02.035Z","level":"error","message":"upstream request failed token=synthetic-worker-token","service":{"name":"api"},"host":"api-01","trace_id":"trace-demo-7","request_id":"req-demo-21"}

@@ -1,0 +1,3 @@
+2026-09-02T10:14:01.600Z INFO service=worker host=worker-02 trace_id=trace-demo-7 request_id=req-demo-21 job_received
+2026-09-02T10:14:01.910Z ERROR service=worker host=worker-02 trace_id=trace-demo-7 request_id=req-demo-21 dependency_timeout api_key=synthetic-api-key
+2026-09-02T10:14:02.100Z INFO service=worker host=worker-02 trace_id=trace-demo-7 request_id=req-demo-21 retry_scheduled
